@@ -16,7 +16,6 @@ namespace WS.api.Account
     // [System.Web.Script.Services.ScriptService]
     public class Account : WebService
     {
-
         [WebMethod]
         [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
         public string Add(string nome, string email, string senha, string apelido)
